@@ -1,6 +1,6 @@
 # Hell Triangle
 
-The purpose for this repo is to solve the [Hell Triangle](https://s3.amazonaws.com/sample-login/attachments/files/000/000/465/original/HellsTriangle.pdf?1513355063) challenge using Ruby. Also, I am currently studying **Ruby** and that's why the reason of the chosen language.
+The purpose for this repo is to solve the [Hell Triangle](https://s3.amazonaws.com/sample-login/attachments/files/000/000/465/original/HellsTriangle.pdf?1513355063) challenge using Ruby. I am currently studying **Ruby** and that's why the reason of the chosen language. As well that project introduce me to the awesome RSpec syntax :).
 
 The challenge:
 ```
@@ -24,17 +24,27 @@ The triangle from above would be:
 
 ## Prerequisites
 
-### Install Ruby
-Before we begin, make sure you have ruby version >=2.2.2 and rails version 5.
-
-`$ ruby -v # ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-darwin16]`
-
 ### Bundler
 Bundler provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed.
 
 Bundler is an exit from dependency hell, and ensures that the gems you need are present in development, staging, and production. Starting work on a project is as simple as bundle install.
 
 After installing ruby tap `gem install bundler`
+
+### Install Ruby
+Before we begin, make sure you have ruby version >=2.2.2 and rails version 5.
+
+`$ ruby -v # ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-darwin16]`
+
+##### MacOS
+
+Ruby comes by default in Mac OS Sierra and El Capitan. If not, it will be easy after we already installed **Homebrew**.
+
+`$ brew install ruby`
+This should install the lastest version of Ruby
+
+Sometimes you need to update it using some third party Ruby Manager.
+Check out the references of these third party [Managers for Ruby](https://www.ruby-lang.org/en/documentation/installation/) under _Installers_ topic.
 
 ## Running the example
 
