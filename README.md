@@ -24,7 +24,7 @@ The triangle from above would be:
 
 ## Prerequisites
 
-## Install Homebrew
+### Install Homebrew
 
 First, we need to install Homebrew. Homebrew allows us to install and compile software packages easily from source.
 
