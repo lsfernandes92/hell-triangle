@@ -24,12 +24,15 @@ The triangle from above would be:
 
 ## Prerequisites
 
-### Bundler
-Bundler provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed.
+## Install Homebrew
 
-Bundler is an exit from dependency hell, and ensures that the gems you need are present in development, staging, and production. Starting work on a project is as simple as bundle install.
+First, we need to install Homebrew. Homebrew allows us to install and compile software packages easily from source.
 
-After installing ruby tap `gem install bundler`
+Homebrew comes with a very simple install script. When it asks you to install XCode CommandLine Tools, say yes.
+
+Open Terminal and run the following command:
+
+`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 ### Install Ruby
 Before we begin, make sure you have ruby version >=2.2.2 and rails version 5.
@@ -41,10 +44,18 @@ Before we begin, make sure you have ruby version >=2.2.2 and rails version 5.
 Ruby comes by default in Mac OS Sierra and El Capitan. If not, it will be easy after we already installed **Homebrew**.
 
 `$ brew install ruby`
+
 This should install the lastest version of Ruby
 
 Sometimes you need to update it using some third party Ruby Manager.
 Check out the references of these third party [Managers for Ruby](https://www.ruby-lang.org/en/documentation/installation/) under _Installers_ topic.
+
+### Bundler
+Bundler provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed.
+
+Bundler is an exit from dependency hell, and ensures that the gems you need are present in development, staging, and production. Starting work on a project is as simple as bundle install.
+
+After installing ruby tap `gem install bundler`
 
 ## Running the example
 
